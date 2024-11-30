@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.preprocessing import StandardScaler
 
 # Step 1: Prepare and save training data
-data_dir = "E:/cat vs dog/train"  # Update to the path where training images are stored
+data_dir = "D:/cat vs dog/train"  # Update to the path where training images are stored
 categories = ["cat", "dog"]
 data = []
 
@@ -52,7 +52,7 @@ print("Validation Classification Report:\n", classification_report(y_val, y_val_
 print("Validation Confusion Matrix:\n", confusion_matrix(y_val, y_val_pred))
 
 # Step 7: Load and preprocess test data for final predictions
-test_dir = "E:/cat vs dog/test1"  # Directory with test images
+test_dir = "D:/cat vs dog/test1"  # Directory with test images
 test_images = []
 test_filenames = []
 
